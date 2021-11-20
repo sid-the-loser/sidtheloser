@@ -11,7 +11,7 @@ h1{
     margin: 5vw;
 }
 
-h3{
+h4{
     margin-bottom: 1vw;
 }
 
@@ -21,4 +21,11 @@ a{
 
 a:hover{
     color: white;
+}
+
+img{
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+    border-radius: 360px;
 }
