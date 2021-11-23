@@ -8,11 +8,18 @@ body{
 }
 
 h1{
-    margin: 5vw;
+    margin: 100px;
 }
 
 h4{
-    margin-bottom: 1vw;
+    margin-bottom: 50px;
+}
+
+div{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-size: 10px;
 }
 
 a{
