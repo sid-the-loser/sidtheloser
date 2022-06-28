@@ -31,8 +31,7 @@ a:hover{
 }
 
 img{
-    width: 100%;
-    height: auto;
-    margin: 16px;
+    width: 64px;
+    margin: 32px;
     border-radius: 360px;
 }
