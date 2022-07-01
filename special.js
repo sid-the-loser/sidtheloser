@@ -17,6 +17,6 @@ if (dd=="27" && mm=="06"){ // she is my sister
 
 if (dd=="01" && mm=="07"){ // she is my sister
 
-    document.write("<h1>"+confetti+"Happy Birthday to <i>Sid</i>"+confetti+"</h1>");
+    document.write("<h1>"+confetti+"Happy Birthday <i>Sid</i>"+confetti+"</h1>");
 
 };
