@@ -31,7 +31,7 @@ if (dd=="01" && mm=="07"){ // this is me
 
 };
 
-if (dd==6 && mm==7){ // classmate and friend
+if (dd==6 && mm==6){ // classmate and friend
 
     document.write("<h1>"+confetti+"Happy Birthday <i>Aryan</i> kutta"+confetti+"</h1>");
 
