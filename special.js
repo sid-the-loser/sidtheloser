@@ -1,6 +1,6 @@
 var today = new Date()
-var dd = String(today.getDate()).padStart(2, '0');
-var mm = String(today.getMonth() + 1).padStart(2, '0');
+var dd = today.getDate();
+var mm = today.getMonth();
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
 
@@ -29,7 +29,7 @@ if (dd=="01" && mm=="07"){ // this is me
 
 };
 
-if (dd=="06" && mm=="07"){ // classmate and friend
+if (dd==6 && mm==7){ // classmate and friend
 
     document.write("<h1>"+confetti+"Happy Birthday <i>Aryan</i> kutta"+confetti+"</h1>");
 
