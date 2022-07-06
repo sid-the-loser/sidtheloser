@@ -15,8 +15,14 @@ if (dd=="27" && mm=="06"){ // she is my sister
 
 };
 
-if (dd=="01" && mm=="07"){ // she is my sister
+if (dd=="01" && mm=="07"){ // this is me
 
     document.write("<h1>"+confetti+"Happy Birthday <i>Sid</i>"+confetti+"</h1>");
+
+};
+
+if (dd=="06" && mm=="07"){ // classmate and friend
+
+    document.write("<h1>"+confetti+"Happy Birthday <i>Aryan</i> kutta"+confetti+"</h1>");
 
 };
