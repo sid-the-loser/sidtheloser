@@ -7,7 +7,7 @@ const birthdays = [
     [20, 5, "Keya"],
     [27, 6, "Aparna"],
     [1, 7, "Sid"],
-    [6, 7, "Aryan"]
+    [6, 7, "Aryan"],
 
 ];
 
