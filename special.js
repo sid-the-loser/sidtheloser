@@ -4,14 +4,18 @@ var mm = today.getMonth() + 1;
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
 
-    [],
-    [],
-    [],
-    []
+    [20, 5, "Keya"],
+    [27, 6, "Aparna"],
+    [1, 7, "Sid"],
+    [6, 7, "Aryan kutta"]
 
 ];
 
-console.log(dd, mm)
+for(var i = 0, size = birthdays.length; i < size ; i++){
+
+    console.log(birthdays[i])
+
+}
 
 if (dd==20 && mm==5){ //she is just a friend for me, or used to be my friend!
 
