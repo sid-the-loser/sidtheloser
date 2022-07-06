@@ -1,6 +1,6 @@
 var today = new Date()
 var dd = today.getDate();
-var mm = today.getMonth();
+var mm = today.getUTCMonth();
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
 
