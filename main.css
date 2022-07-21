@@ -35,3 +35,11 @@ img{
     margin: 32px;
     border-radius: 360px;
 }
+
+.title{
+    width: 90%;
+    height: 25%;
+    border-radius: 0px;
+    margin-bottom: 10px;
+
+}
