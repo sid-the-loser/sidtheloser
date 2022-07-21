@@ -1,8 +1,8 @@
 // website name chooser
 
-const max_titles = 14;
+const max_titles = 31;
 
-document.write("<img class='title' src='./images/title/"+String(Math.floor(Math.random() * max_titles+1))+".png'>")
+document.write("<a href='index.html'><img class='title' src='./images/title/"+String(Math.floor(Math.random() * max_titles+1))+".png'></a>")
 
 // happy brithday greeting
 
