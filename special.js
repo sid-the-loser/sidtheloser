@@ -19,6 +19,7 @@ const birthdays = [
     [11, 7, "Jacob"],
     [9, 7, "Syam"],
     [23, 7, "Ashik"],
+    [18, 12, "Mahi"],
 ];
 
 for(var i = 0, size = birthdays.length; i < size ; i++){
