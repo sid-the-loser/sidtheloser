@@ -2,7 +2,7 @@
 
 const max_titles = 33;
 
-document.write("<a href='index.html'><img class='title' src='./images/title/"+String(Math.floor(Math.random() * max_titles+1))+".png'></a>")
+document.write("<a href='index.html'><img class='title' src='./images/title/"+String(Math.floor(Math.random() * max_titles+1))+".png'></a>");
 
 // happy brithday greeting
 
@@ -14,10 +14,11 @@ const birthdays = [
     // [dd, mm, name]
     [20, 5, "Keya"],
     [27, 6, "Aparna"],
-    [1, 7, "Sid"],
+    [1, 7, "me"],
     [6, 7, "Aryan"],
     [11, 7, "Jacob"],
     [9, 7, "Syam"],
+    [23, 7, "Ashik"],
 ];
 
 for(var i = 0, size = birthdays.length; i < size ; i++){
@@ -29,3 +30,12 @@ for(var i = 0, size = birthdays.length; i < size ; i++){
     };
 
 };
+
+// secret stuff
+
+if (Math.floor(Math.random() * 21) == 1){
+    document.write("<div>Hey Keya ❤️</div>")
+}
+else{
+    document.write("<div>Thank you!</div>")
+}
