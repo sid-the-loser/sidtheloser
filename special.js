@@ -22,19 +22,24 @@ const birthdays = [
     [18, 12, "Mahi"],
 ];
 
+var kFlag = false
+
 for(var i = 0, size = birthdays.length; i < size ; i++){
 
     var temp = birthdays[i];
 
     if (dd == temp[0] && mm == temp[1]){
         document.write("<h1>"+confetti+"Happy Birthday <i>"+temp[2]+"</i>"+confetti+"</h1>");
+        if (temp[2] == "Keya"){
+            kFlag = true        
+        }
     };
 
 };
 
 // secret stuff
 
-if (Math.floor(Math.random() * 21) == 1){
+if (kFlag){
     document.write("<div>Hey Keya ❤️</div>") // please dont snitch on me...i do have a crush on her...
 }
 else{
