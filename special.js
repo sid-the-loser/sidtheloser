@@ -1,8 +1,13 @@
 // website name chooser
 
 const max_titles = 33;
+const ranTitle = Math.floor(Math.random() * max_titles+1)
 
-document.write("<a href='index.html'><img class='title' src='./images/title/"+String(Math.floor(Math.random() * max_titles+1))+".png'></a>");
+document.write("<a href='index.html'><img class='title' src='./images/title/"+String(ranTitle)+".png'></a>");
+
+if (ranTitle == 21){
+    kFlag = true
+}
 
 // happy brithday greeting
 
