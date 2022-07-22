@@ -1,6 +1,6 @@
 // website name chooser
 
-const max_titles = 31;
+const max_titles = 33;
 
 document.write("<a href='index.html'><img class='title' src='./images/title/"+String(Math.floor(Math.random() * max_titles+1))+".png'></a>")
 
