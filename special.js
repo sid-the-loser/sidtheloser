@@ -1,12 +1,14 @@
+var kFlag = false // just a flag for something
+
 // website name chooser
 
 const max_titles = 33;
-const ranTitle = Math.floor(Math.random() * max_titles+1)
+const ranTitle = Math.floor(Math.random() * max_titles+1);
 
 document.write("<a href='index.html'><img class='title' src='./images/title/"+String(ranTitle)+".png'></a>");
 
 if (ranTitle == 21){
-    kFlag = true
+    kFlag = true;
 }
 
 // happy brithday greeting
@@ -27,8 +29,6 @@ const birthdays = [
     [18, 12, "Mahi"],
 ];
 
-var kFlag = false
-
 for(var i = 0, size = birthdays.length; i < size ; i++){
 
     var temp = birthdays[i];
@@ -36,17 +36,17 @@ for(var i = 0, size = birthdays.length; i < size ; i++){
     if (dd == temp[0] && mm == temp[1]){
         document.write("<h1>"+confetti+"Happy Birthday <i>"+temp[2]+"</i>"+confetti+"</h1>");
         if (temp[2] == "Keya"){
-            kFlag = true        
-        }
+            kFlag = true;        
+        };
     };
 
 };
 
 // secret stuff
 
-if (kFlag){
-    document.write("<div>Hey Keya ❤️</div>") // please dont snitch on me...i do have a crush on her...
+if (kFlag == true){
+    document.write("<div>Hey Keya ❤️</div>"); // please dont snitch on me...i do have a crush on her...
 }
 else{
-    document.write("<div>Thank you!</div>")
-}
+    document.write("<div>Thank you!</div>");
+};
