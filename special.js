@@ -1,1 +1,41 @@
-var U7=window,Y7=document;F1constF1 F1max_titlesF1=F133F1;F1Y7F1.F1writeF1(F1"<a href='index.html'><img class='title' src='./images/title/"F1+F1StringF1(F1MathF1.F1floorF1(F1MathF1.F1randomF1()*F1max_titlesF1+F11F1))+F1".png'></a>"F1);F1varF1 F1C6F1=F1newF1 F1DateF1();F1varF1 F1M6F1=F1C6F1.F1getDateF1();F1varF1 F1R5F1=F1C6F1.F1getMonthF1()+F11F1;F1varF1 F1G5F1=F1StringF1.F1fromCodePointF1(F10x1F389F1);F1constF1 F1A2F1=[[F120F1,F15F1,F1"Keya"F1],[F127F1,F16F1,F1"Aparna"F1],[F11F1,F17F1,F1"me"F1],[F16F1,F17F1,F1"Aryan"F1],[F111F1,F17F1,F1"Jacob"F1],[F19F1,F17F1,F1"Syam"F1],[F123F1,F17F1,F1"Ashik"F1],];F1forF1(F1varF1 F1T4F1=F10F1,F1Q1F1=F1A2F1.F1lengthF1;F1T4F1 < F1Q1F1;F1T4F1++){F1varF1 F1X4F1=F1A2F1[F1T4F1];F1ifF1(F1M6F1==F1X4F1[F10F1]&& F1R5F1==F1X4F1[F11F1]){F1Y7F1.F1writeF1(F1"<h1>"F1+F1G5F1+F1"Happy Birthday <i>"F1+F1X4F1[F12F1]+F1"</i>"F1+F1G5F1+F1"</h1>"F1);};};F1ifF1(F1MathF1.F1floorF1(F1MathF1.F1randomF1()*F121F1)==F11F1){F1Y7F1.F1writeF1(F1"<div>Hey Keya ❤️</div>"F1)}F1elseF1{F1Y7F1.F1writeF1(F1"<div>Thank you!</div>"F1)}
+// website name chooser
+
+const max_titles = 33;
+
+document.write("<a href='index.html'><img class='title' src='./images/title/"+String(Math.floor(Math.random() * max_titles+1))+".png'></a>");
+
+// happy brithday greeting
+
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth() + 1;
+var confetti = String.fromCodePoint(0x1F389);
+const birthdays = [
+    // [dd, mm, name]
+    [20, 5, "Keya"],
+    [27, 6, "Aparna"],
+    [1, 7, "me"],
+    [6, 7, "Aryan"],
+    [11, 7, "Jacob"],
+    [9, 7, "Syam"],
+    [23, 7, "Ashik"],
+];
+
+for(var i = 0, size = birthdays.length; i < size ; i++){
+
+    var temp = birthdays[i];
+
+    if (dd == temp[0] && mm == temp[1]){
+        document.write("<h1>"+confetti+"Happy Birthday <i>"+temp[2]+"</i>"+confetti+"</h1>");
+    };
+
+};
+
+// secret stuff
+
+if (Math.floor(Math.random() * 21) == 1){
+    document.write("<div>Hey Keya ❤️</div>") // please dont snitch on me...i do have a crush on her...
+}
+else{
+    document.write("<div>Thank you!</div>")
+}
