@@ -26,6 +26,7 @@ const birthdays = [
     [11, 7, "Jacob"],
     [9, 7, "Syam"],
     [23, 7, "Ashik"],
+    [23, 7, "Varkey"],
     [18, 12, "Mahi"],
 ];
 
