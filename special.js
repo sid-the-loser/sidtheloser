@@ -1,18 +1,3 @@
-var kFlag = false // just a flag for something
-
-// website name chooser
-
-const max_titles = 33;
-const ranTitle = Math.floor(Math.random() * max_titles+1);
-
-document.write("<a href='index.html'><img class='title' src='./images/title/"+String(ranTitle)+".png'></a>");
-
-if (ranTitle == 21){
-    kFlag = true;
-}
-
-// happy brithday greeting
-
 var today = new Date();
 var dd = today.getDate();
 var mm = today.getMonth() + 1;
@@ -30,15 +15,34 @@ const birthdays = [
     [18, 12, "Mahi"],
 ];
 
+var kFlag = false; // just a flag for something
+
+var ranTitle = 0
+
+// website name chooser
+
+const max_titles = 33;
+if (dd==birthdays[0][0] && mm==birthdays[0][1]){
+    ranTitle = 21;
+}
+else{
+    ranTitle = Math.floor(Math.random() * max_titles+1);
+};
+
+document.write("<a href='index.html'><img class='title' src='./images/title/"+String(ranTitle)+".png'></a>");
+
+if (ranTitle == 21){
+    kFlag = true;
+}
+
+// happy brithday greeting
+
 for(var i = 0, size = birthdays.length; i < size ; i++){
 
     var temp = birthdays[i];
 
     if (dd == temp[0] && mm == temp[1]){
         document.write("<h1>"+confetti+"Happy Birthday <i>"+temp[2]+"</i>"+confetti+"</h1>");
-        if (temp[2] == "Keya"){
-            kFlag = true;        
-        };
     };
 
 };
