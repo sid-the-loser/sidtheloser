@@ -13,6 +13,8 @@ const birthdays = [
     [23, 7, "Ashik"],
     [23, 7, "Varkey"],
     [18, 12, "Mahi"],
+    [18, 2, "Justin"],
+    [7, 6, "Helen"],
 ];
 
 var kFlag = false; // just a flag for something
