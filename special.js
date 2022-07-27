@@ -50,7 +50,7 @@ for(var i = 0, size = birthdays.length; i < size ; i++){
         document.write("<h1>"+confetti+"Happy Birthday <i><a href="+temp[3]+" target='_'>"+temp[2]+"</a></i>"+confetti+"</h1>");
     }
     else if(temp[0] < 0 || temp[1] < 0){
-        document.write("<h1>"+confetti+"Tell me when your birthday is <i><a href="+temp[3]+" target='_'>"+temp[2]+"</a></i>"+confetti+"</h1>");
+        document.write("<h1>"+confetti+"Tell me when your birthday is, <i><a href="+temp[3]+" target='_'>"+temp[2]+"</a></i>"+confetti+"</h1>");
     };
 
 };
