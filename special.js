@@ -3,18 +3,21 @@ var dd = today.getDate();
 var mm = today.getMonth() + 1;
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
-    // [dd, mm, name]
-    [20, 5, "Keya"],
-    [27, 6, "Aparna"],
-    [1, 7, "me"],
-    [6, 7, "Aryan"],
-    [11, 7, "Jacob"],
-    [9, 7, "Syam"],
-    [23, 7, "Ashik"],
-    [23, 7, "Varkey"],
-    [18, 12, "Mahi"],
-    [18, 2, "Justin"],
-    [7, 6, "Helen"],
+    // [dd, mm, name, socials, suffix]
+    [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"],
+    [27, 6, "Aparna", "https://www.instagram.com/__aparnasuresh__/"],
+    [1, 7, "me", "https://www.instagram.com/sidtheloser/"],
+    [1, 7, "Justin", "https://www.instagram.com/_.justin_baby_/"],
+    [6, 7, "Aryan", "link_error.html"],
+    [11, 7, "Jacob", "https://www.instagram.com/jacobbiju2/"],
+    [9, 5, "Syam", "link_error.html"],
+    [23, 7, "Ashik", "https://www.instagram.com/_ashik_aashik__777/"],
+    [23, 7, "Varkey", "https://www.instagram.com/_joelvy/"],
+    [18, 12, "Mahi", "https://www.instagram.com/mahitha_186/"],
+    [18, 2, "Justin", "https://www.instagram.com/justinsajan30/"],
+    [7, 6, "Helen", "https://www.instagram.com/_he.le.n._____/"],
+    [18, 11, "Minecraft", "https://www.instagram.com/minecraft/"],
+    [-1, -1, "Niranjan", "https://www.instagram.com/niranjan.kz/"]
 ];
 
 var kFlag = false; // just a flag for something
@@ -44,7 +47,10 @@ for(var i = 0, size = birthdays.length; i < size ; i++){
     var temp = birthdays[i];
 
     if (dd == temp[0] && mm == temp[1]){
-        document.write("<h1>"+confetti+"Happy Birthday <i>"+temp[2]+"</i>"+confetti+"</h1>");
+        document.write("<h1>"+confetti+"Happy Birthday <i><a href="+temp[3]+" target='_'>"+temp[2]+"</a></i>"+confetti+"</h1>");
+    }
+    else if(temp[0] < 0 || temp[1] < 0){
+        document.write("<h1>"+confetti+"Happy Birthday forever <i><a href="+temp[3]+" target='_'>"+temp[2]+"</a></i>"+confetti+"</h1>");
     };
 
 };
