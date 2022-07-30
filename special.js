@@ -4,20 +4,21 @@ var mm = today.getMonth() + 1;
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
     // [dd, mm, name, socials, suffix]
+    [4, 8, "Acha", "index.html"],
     [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"],
     [27, 6, "Aparna", "https://www.instagram.com/__aparnasuresh__/"],
     [1, 7, "me", "https://www.instagram.com/sidtheloser/"],
     [1, 7, "Justin", "https://www.instagram.com/_.justin_baby_/"],
-    [6, 7, "Aryan", "link_error.html"],
+    [6, 7, "Aryan", "index.html"],
     [11, 7, "Jacob", "https://www.instagram.com/jacobbiju2/"],
-    [9, 5, "Syam", "link_error.html"],
+    [9, 5, "Syam", "index.html"],
     [23, 7, "Ashik", "https://www.instagram.com/_ashik_aashik__777/"],
     [23, 7, "Varkey", "https://www.instagram.com/_joelvy/"],
     [18, 12, "Mahi", "https://www.instagram.com/mahitha_186/"],
     [18, 2, "Justin", "https://www.instagram.com/justinsajan30/"],
     [7, 6, "Helen", "https://www.instagram.com/_he.le.n._____/"],
     [18, 11, "Minecraft", "https://www.instagram.com/minecraft/"],
-    [-1, -1, "Niranjan", "https://www.instagram.com/niranjan.kz/"]
+    [-1, -1, "Niranjan", "https://www.instagram.com/niranjan.kz/"],
 ];
 
 var kFlag = false; // just a flag for something
