@@ -4,8 +4,8 @@ var mm = today.getMonth() + 1;
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
     // [dd, mm, name, socials, suffix]
-    [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"], //Keya's birthday must stay on top
-    [4, 8, "Acha", "index.html"],
+    [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"], // Keya's birthday must stay on top
+    [4, 8, "Acha", "index.html"], // Acha's birthday must stay second
     [27, 6, "Aparna", "https://www.instagram.com/__aparnasuresh__/"],
     [1, 7, "me", "https://www.instagram.com/sidtheloser/"],
     [1, 7, "Justin", "https://www.instagram.com/_.justin_baby_/"],
@@ -30,6 +30,9 @@ var ranTitle = 0
 const max_titles = 33;
 if (dd==birthdays[0][0] && mm==birthdays[0][1]){
     ranTitle = 21;
+}
+else if (dd==birthdays[1][0] && mm==birthdays[1][1]){
+    ranTitle = 32;
 }
 else{
     ranTitle = Math.floor(Math.random() * max_titles+1);
