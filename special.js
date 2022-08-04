@@ -4,8 +4,8 @@ var mm = today.getMonth() + 1;
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
     // [dd, mm, name, socials, suffix]
+    [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"], //Keya's birthday must stay on top
     [4, 8, "Acha", "index.html"],
-    [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"],
     [27, 6, "Aparna", "https://www.instagram.com/__aparnasuresh__/"],
     [1, 7, "me", "https://www.instagram.com/sidtheloser/"],
     [1, 7, "Justin", "https://www.instagram.com/_.justin_baby_/"],
