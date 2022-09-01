@@ -18,6 +18,7 @@ const birthdays = [
     [18, 2, "Justin", "https://www.instagram.com/justinsajan30/"],
     [7, 6, "Helen", "https://www.instagram.com/_he.le.n._____/"],
     [18, 11, "Minecraft", "https://www.instagram.com/minecraft/"],
+    [1, 9, "Alen Fra", "https://www.instagram.com/__alen_francis"],
     [-1, -1, "Niranjan", "https://www.instagram.com/niranjan.kz/"],
 ];
 
