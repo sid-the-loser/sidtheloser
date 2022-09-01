@@ -20,7 +20,7 @@ const birthdays = [
     [18, 11, "Minecraft", "https://www.instagram.com/minecraft/"],
     [1, 9, "Alen Fra", "https://www.instagram.com/__alen_francis"],
     [29, 8, "Abhijith CS (Computer Science)", "https://www.instagram.com/_abhijith_c.s_/"],
-    // [-1, -1, "Niranjan", "https://www.instagram.com/niranjan.kz/"],
+    [11, 11, "Niranjan", "https://www.instagram.com/niranjan.kz/"],
 ];
 
 var kFlag = false; // just a flag for something
