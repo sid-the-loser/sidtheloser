@@ -4,8 +4,9 @@ var mm = today.getMonth() + 1;
 var confetti = String.fromCodePoint(0x1F389);
 const birthdays = [
     // [dd, mm, name, socials, suffix]
-    [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"], // Keya's birthday must stay on top
+    [7, 6, "Helen", "https://www.instagram.com/_he.le.n._____/"], // Helen's birthday must stay on top
     [4, 8, "Acha", "index.html"], // Acha's birthday must stay second
+    [20, 5, "Keya", "https://www.instagram.com/rejinsojan/"],
     [27, 6, "Aparna", "https://www.instagram.com/__aparnasuresh__/"],
     [1, 7, "me", "https://www.instagram.com/sidtheloser/"],
     [1, 7, "Justin", "https://www.instagram.com/_.justin_baby_/"],
@@ -16,14 +17,13 @@ const birthdays = [
     [23, 7, "Varkey", "https://www.instagram.com/_joelvy/"],
     [18, 12, "Mahi", "https://www.instagram.com/mahitha_186/"],
     [18, 2, "Justin", "https://www.instagram.com/justinsajan30/"],
-    [7, 6, "Helen", "https://www.instagram.com/_he.le.n._____/"],
     [18, 11, "Minecraft", "https://www.instagram.com/minecraft/"],
     [1, 9, "Alen Fra", "https://www.instagram.com/__alen_francis"],
     [29, 8, "Abhijith CS (Computer Science)", "https://www.instagram.com/_abhijith_c.s_/"],
     [11, 11, "Niranjan", "https://www.instagram.com/niranjan.kz/"],
 ];
 
-var kFlag = false; // just a flag for something
+var hFlag = false; // just a flag for something
 
 var ranTitle = 0
 
@@ -43,7 +43,7 @@ else{
 document.write("<a href='index.html'><img class='title' src='./images/title/"+String(ranTitle)+".png'></a>");
 
 if (ranTitle == 21){
-    kFlag = true;
+    hFlag = true;
 }
 
 // happy brithday greeting
@@ -63,8 +63,8 @@ for(var i = 0, size = birthdays.length; i < size ; i++){
 
 // secret stuff
 
-if (kFlag == true){
-    document.write("<div>Hey Keya ❤️</div>"); // please dont snitch on me...i do have a crush on her...
+if (hFlag == true){
+    document.write("<div>Hey Helen ❤️</div>"); // please dont snitch on me...i do have a crush on her...
 }
 else{
     document.write("<div>Thank you!</div>");
