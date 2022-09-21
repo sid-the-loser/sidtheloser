@@ -64,7 +64,7 @@ for(var i = 0, size = birthdays.length; i < size ; i++){
 // secret stuff
 
 if (hFlag == true){
-    document.write("<div>Hey Helen ❤️</div>"); // please dont snitch on me...i do have a crush on her...
+    document.write("<div>I love you, Helen ❤️</div>"); // please dont snitch on me...i do have a crush on her...
 }
 else{
     document.write("<div>Thank you!</div>");
