@@ -1,0 +1,28 @@
+@keyframes cool{
+    0% {color:rgb(0, 0, 0);}
+    50% {color:rgba(130, 0, 0);}
+    100% {color:rgb(0, 0, 0);}
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.title{
+    font-size: 500%;
+}
+
+.title:hover{
+    animation-name: cool;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: grey;
+}
