@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap')
+
 @keyframes cool{
     0% {color:rgb(0, 0, 0);}
     50% {color:rgba(130, 0, 0);}
@@ -5,7 +7,7 @@
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Press Start 2P", system-ui;
     text-align: center;
 }
 
