@@ -1,54 +1,99 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>SidTheLoser's Website</title>
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
-        <link rel="stylesheet" href="assets/styles/main.css">
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+        <link rel="stylesheet" href="/assets/styles/main.css">
     </head>
+
     <body>
-        <!-- Website title with a short description of why the website exists -->
+
+        <script>
+            currentDate = new Date();
+            mailAddress = "notsidtheloser@gmail.com"
+        </script>
+
         <h1 class="title">
-            SidTheLoser's Website
+            SidTheLoser's Website!
         </h1>
-        <p>
-            This is a <u>basic</u> personal website used to showcase my past projects and some 
-            of my future ones.
-        </p>
-
-        <!-- Under development part... -->
 
         <p>
-            As this website is still under development, I'm not uploading any of my works yet.<br>
-            Please be patient.<br>
-            (<i>Let me cook!</i>)
+            Hello there! I am Sid...
         </p>
 
-        <!-- Talking abot me -->
+        <p>
+            Wanna check out my <a href="https://youtu.be/VZrDxD0Za9I?si=nFNlXnMYEzz-LmnH" target="_">blog</a>? (<i>Coming soon...</i>)
+        </p>
+
         <h2>
             About me
         </h2>
+
+        <h3>
+            General
+        </h3>
+
+        <img class="headshot" alt="Sid's old picture" src="/assets/images/index/my_image.png">
+
         <p>
-            I am <b>Sidharth Suresh (<i>aka Sid</i>)</b>
+            My actual name is <b>Sidharth Suresh</b> but I prefer to be called <b>Sid</b>. I am was born in July 1st of 2005 
+            (<i>about <script> document.write(currentDate.getFullYear()-2005); </script> years old now</i>). 
+            I was born and raised in <b>Kerala</b> (<i>it is a state in India</i>).
         </p>
+
         <h3>
             Currently
         </h3>
+
         <p>
-            I'm student in <a href="https://ontariotechu.ca/", target="_">Ontario Tech University</a>, 
-            currently studying Game Development.<br>
-            I'm not that into making games however, rather, I'm into making tools that help 
-            in creating games. Basically, I'm into Engine Development.<br>
-            Nowadays I'm usually busy with my studies and side projects.<br>
+            I am a <b>game development</b> student studying at <a href="https://ontariotechu.ca/" target="_">Ontario Tech University's</a>
+            Game Development program. Currently, I am probably doing my
+            
+            <script>
+                currentStudyYear = -1*(2023-currentDate.getFullYear());
+
+                if (currentStudyYear == 1){
+                    document.write("first")
+                }
+                else if (currentStudyYear == 2){
+                    document.write("second")
+                }
+                else if (currentStudyYear == 3){
+                    document.write("third")
+                }
+                else if (currentStudyYear == 4){
+                    document.write("fourth")
+                }
+                else{
+                    document.write("(<i>Sid messed up something, please <a href='mailto:" + mailAddress + "'>email</a> him!</i>)")
+                }
+            </script> year of a four year course.
+
+            <ul>
+                I am also a part of two indie game development teams called:<br>
+                <li>Banana Bread Studios (<i>BBS in short</i>)</li>
+                <li>Can't Name It Studios (<i>CNI in short</i>)</li>
+            </ul>
+
         </p>
-        <p>
-            <i>"Make random tools everyday...hopefully you'll make something revolutionary..."</i><br>
-        </p>
+
         <h3>
-            In Past
+            Past
         </h3>
+
         <p>
-            Studied in <a href="https://depaulnh.ac.in/", target="_">De Paul Public School.</a><br>
-            Learned Computer Science there.<br>
+            Even though my team at CNI haven't made any games yet, at BBS, I helped making a game called 
+            "<a href="https://sidtheloser.itch.io/lost-century-bbs", target="_">Lost Century</a>" as a part of 
+            <a href="https://www.gamecon.ca/" target="_">GameCon 2024</a>. That game got nominated for the title
+            "<a href="https://www.gamecon.ca/gamecon2024-winners" target="_">BEST FIRST YEAR</a>" as well!<br>
         </p>
+        
+        <p>
+            Back in India. I used to study at <a href="https://depaulnh.ac.in/" target="_">De Paul Public School</a>.<br>
+            My pre-degree course was Computer Science and I learnt C++, Python and HTML when I was at school.
+        </p>
+
     </body>
+
 </html>
