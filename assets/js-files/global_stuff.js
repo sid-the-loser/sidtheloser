@@ -13,7 +13,7 @@ function DefaultBlogHeading(){
 
 function DefaultBlogDetails(title, author, dd, mm, yyyy, place){
     document.write('<h1>' + title + '</h1><h3 class="blog-data">by: ' + author + '<br>\
-    date: ' + dd + '-' + mm + '-' + yyyy + '<br>place:' + place + '</h3>');
+    date: ' + dd + '-' + mm + '-' + yyyy + '<br>place: ' + place + '</h3>');
 }
 
 function NewBlogNotification(){
