@@ -11,13 +11,13 @@ function DefaultBlogHeading(){
     <a href="/blogs/">Back to blog index...</a>')
 }
 
-function DefaultBlogDetails(title, author, dd, mm, yyyy){
-    document.write('<h1>' + title + '</h1><h3 class="author-name">by: ' + author + '</h3>\
-    <h3 class="blog-date">written on: ' + dd + '-' + mm + '-' + yyyy + '</h3>')
+function DefaultBlogDetails(title, author, dd, mm, yyyy, place){
+    document.write('<h1>' + title + '</h1><h3 class="blog-data">by: ' + author + '<br>\
+    date: ' + dd + '-' + mm + '-' + yyyy + '<br>place:' + place + '</h3>');
 }
 
 function NewBlogNotification(){
-    document.write('<a href="'+ latestBlogUrl +'"><h3>Sid has posted a new blog!</h3></a>')
+    document.write('<a href="'+ latestBlogUrl +'"><h3>Sid has posted a new blog!</h3></a>');
 }
 
 document.addEventListener('DOMContentLoaded', function() {

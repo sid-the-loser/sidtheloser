@@ -38,12 +38,8 @@ body{
     animation-iteration-count: infinite;
 }
 
-.author-name{
-    color: grey;
-}
-
-.blog-date{
-    color: grey;
+.blog-data{
+    color: gray;
 }
 
 .blog-body{
