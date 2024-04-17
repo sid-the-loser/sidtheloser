@@ -3,6 +3,8 @@ currentDate = new Date();
 mailAddress = "notsidtheloser@gmail.com";
 itchioLink = "https://sidtheloser.itch.io/";
 githubLink = "https://github.com/sid-the-loser";
+kofiLink = "https://ko-fi.com/sidtheloser"
+youtubeLink = "https://www.youtube.com/channel/UCk2Lg22OdyUsJ0e96FsaxzA"
 
 latestBlogUrl = "/blogs/first-ever-blog/"
 

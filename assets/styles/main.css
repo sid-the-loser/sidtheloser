@@ -60,8 +60,14 @@ img.headshot{
     border: 2px solid black;
 }
 
+.contacts{
+    background-color: antiquewhite;
+    margin-top: 100px;
+}
+
 .js-warning{
-    color: grey;
-    border: 1px black dotted;
+    color: black;
+    border: 1px red dotted;
+    background-color: yellow;
     margin-top: 100px;
 }
