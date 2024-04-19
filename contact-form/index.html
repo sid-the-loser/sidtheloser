@@ -14,7 +14,7 @@
 
         <h1>Contact Form!</h1>
 
-        <form name="contact" netlify style="text-align: left;">
+        <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" netlify style="text-align: left;">
             <p>
               <label>Name (max: 10 characters) <input type="text" name="name" maxlength="10" required/></label>
             </p>
@@ -23,6 +23,9 @@
             </p>
             <p>
                 <label>Subject (max: 60 characters) <input type="text" name="subject" maxlength="60" required/></label>
+            </p>
+            <p>
+              <div data-netlify-recaptcha="true"></div>
             </p>
             <p>
               <button type="submit">Send</button>
