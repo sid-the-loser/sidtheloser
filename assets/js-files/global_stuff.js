@@ -9,8 +9,8 @@ youtubeLink = "https://www.youtube.com/channel/UCk2Lg22OdyUsJ0e96FsaxzA"
 latestBlogUrl = "/blogs/first-ever-blog/"
 
 function DefaultBlogHeading(){
-    document.write('<a class="small-title" href="/"><h2>SidTheLoser\'s Website!</h2></a>\
-    <a href="/blogs/">Back to blog index...</a>')
+    document.write('<h2 class="small-title-h2"><a class="small-title" \
+    href="/">SidTheLoser\'s Website!</a></h2><a href="/blogs/">Back to blog index...</a>')
 }
 
 function DefaultBlogDetails(title, author, dd, mm, yyyy, place){

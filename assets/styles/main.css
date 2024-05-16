@@ -31,6 +31,10 @@ body{
     animation-iteration-count: infinite;
 }
 
+.small-title-h2{
+    text-align: start;
+}
+
 .small-title{
     text-align: start;
 }
