@@ -14,82 +14,86 @@
             SidTheLoser's Website!
         </h1>
 
-        <p>
-            Hello there! I am Sid...
-        </p>
-
-        <p>
-            Wanna check out my <a href="/blogs/">blogs</a>?
-        </p>
-
-        <h2 id="about">
-            About me
-        </h2>
-
-        <h3>
-            General
-        </h3>
-
-        <img class="headshot" alt="Sid's old picture" src="/assets/images/index/my_image.png">
-
-        <p>
-            My actual name is <b>Sidharth Suresh</b> but I prefer to be called <b>Sid</b>. I am was born in July 1st of 2005 
-            (<i>about <script> document.write(currentDate.getFullYear()-2005); </script> years old now</i>). 
-            I was born and raised in <b>Kerala</b> (<i>it is a state in India</i>).
-        </p>
-
-        <h3>
-            Currently
-        </h3>
-
-        <p>
-            I am a <b>game development</b> student studying at 
-            <a href="https://ontariotechu.ca/" target="_">Ontario Tech University's</a>
-            Game Development program. Currently, I am probably doing my
+        <div class="general-body">
+    
+            <p>
+                Hello there! I am Sid...
+            </p>
+    
+            <p>
+                Wanna check out my <a href="/blogs/">blogs</a>?
+            </p>
+    
+            <h2 id="about">
+                About me
+            </h2>
+    
+            <h3>
+                General
+            </h3>
+    
+            <img class="headshot" alt="Sid's old picture" src="/assets/images/index/my_image.png">
+    
+            <p>
+                My actual name is <b>Sidharth Suresh</b> but I prefer to be called <b>Sid</b>. I am was born in July 1st of 2005 
+                (<i>about <script> document.write(currentDate.getFullYear()-2005); </script> years old now</i>). 
+                I was born and raised in <b>Kerala</b> (<i>it is a state in India</i>).
+            </p>
+    
+            <h3>
+                Currently
+            </h3>
+    
+            <p>
+                I am a <b>game development</b> student studying at 
+                <a href="https://ontariotechu.ca/" target="_">Ontario Tech University's</a>
+                Game Development program. Currently, I am probably doing my
+                
+                <script>
+                    currentStudyYear = -1*(2023-currentDate.getFullYear());
+    
+                    if (currentStudyYear == 1){
+                        document.write("first")
+                    }
+                    else if (currentStudyYear == 2){
+                        document.write("second")
+                    }
+                    else if (currentStudyYear == 3){
+                        document.write("third")
+                    }
+                    else if (currentStudyYear == 4){
+                        document.write("fourth")
+                    }
+                    else{
+                        document.write("(<i>Sid messed up something, please <a href='mailto:" + mailAddress + "'>email</a> him!</i>)")
+                    }
+                </script> year of a four year course.
+    
+                <ul>
+                    I am also a part of two indie game development teams called:<br>
+                    <li>Banana Bread Studios (<i>BBS in short</i>)</li>
+                    <li>Can't Name It Studios (<i>CNI in short</i>)</li>
+                </ul>
+    
+            </p>
+    
+            <h3>
+                Past
+            </h3>
+    
+            <p>
+                Even though my team at CNI haven't made any games yet, at BBS, I helped making a game called 
+                "<a href="https://sidtheloser.itch.io/lost-century-bbs", target="_">Lost Century</a>" as a part of 
+                <a href="https://www.gamecon.ca/" target="_">GameCon 2024</a>. That game got nominated for the title
+                "<a href="https://www.gamecon.ca/gamecon2024-winners" target="_">BEST FIRST YEAR</a>" as well!<br>
+            </p>
             
-            <script>
-                currentStudyYear = -1*(2023-currentDate.getFullYear());
+            <p>
+                Back in India. I used to study at <a href="https://depaulnh.ac.in/" target="_">De Paul Public School</a>.<br>
+                My pre-degree course was Computer Science and I learnt C++, Python and HTML when I was at school.
+            </p>
 
-                if (currentStudyYear == 1){
-                    document.write("first")
-                }
-                else if (currentStudyYear == 2){
-                    document.write("second")
-                }
-                else if (currentStudyYear == 3){
-                    document.write("third")
-                }
-                else if (currentStudyYear == 4){
-                    document.write("fourth")
-                }
-                else{
-                    document.write("(<i>Sid messed up something, please <a href='mailto:" + mailAddress + "'>email</a> him!</i>)")
-                }
-            </script> year of a four year course.
-
-            <ul>
-                I am also a part of two indie game development teams called:<br>
-                <li>Banana Bread Studios (<i>BBS in short</i>)</li>
-                <li>Can't Name It Studios (<i>CNI in short</i>)</li>
-            </ul>
-
-        </p>
-
-        <h3>
-            Past
-        </h3>
-
-        <p>
-            Even though my team at CNI haven't made any games yet, at BBS, I helped making a game called 
-            "<a href="https://sidtheloser.itch.io/lost-century-bbs", target="_">Lost Century</a>" as a part of 
-            <a href="https://www.gamecon.ca/" target="_">GameCon 2024</a>. That game got nominated for the title
-            "<a href="https://www.gamecon.ca/gamecon2024-winners" target="_">BEST FIRST YEAR</a>" as well!<br>
-        </p>
-        
-        <p>
-            Back in India. I used to study at <a href="https://depaulnh.ac.in/" target="_">De Paul Public School</a>.<br>
-            My pre-degree course was Computer Science and I learnt C++, Python and HTML when I was at school.
-        </p>
+        </div>
 
         <div class="contacts" id="contacts">
             <p>
